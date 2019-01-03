@@ -19,8 +19,8 @@
             <td><?php echo $row->price; ?></td>
             <td><?php echo $row->description; ?></td>
             <td>
-                <a href="<?php echo base_url('crud/edit/' .$row->product_id )?>">Edit</a>
-                <a href="<?php echo base_url('crud/delete/' .$row->product_id) ?>">Hapus</a>
+                <a href="<?php echo base_url('toko_buku/edit/' .$row->product_id )?>">Edit</a>
+                <a href="<?php echo base_url('toko_buku/delete/' .$row->product_id) ?>">Hapus</a>
             </td>
         </tr>
         <br>
